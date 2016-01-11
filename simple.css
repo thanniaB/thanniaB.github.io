@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: "Lato";
+  font-size: 32px;
+}
+
+ul {
+  width: 400px;
+  margin: auto;
+  padding-top: 150px;
+}
+
+li {
+  list-style: none;
+  font-weight: bold;
+  margin: 18px 0;
+}
+
+a, a:visited {
+  color: #ddd;
+  text-decoration: none;
+}
