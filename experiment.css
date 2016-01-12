@@ -76,10 +76,6 @@ footer, footer a {
   color: #777;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
 audio {
   opacity: 0;
 }
