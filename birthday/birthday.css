@@ -1,0 +1,52 @@
+body {
+  background-image: url("confetti.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "Lato";
+}
+
+header, main {
+  margin: 0 15%;
+}
+
+header {
+  color: blue;
+}
+
+header h1 {
+  margin: 10px 5%;
+  color: #551A8B;
+  font-size: 60px;
+  white-space: nowrap;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0 15px;
+}
+
+.cents {
+  background-image: url("25cents.png");
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 50px;
+  margin: 5px 0;
+}
+
+ul li {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+  position: absolute;
+  top: 30px;
+}
+
+li:hover .hidden {
+  display: block;
+}
