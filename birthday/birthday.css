@@ -1,68 +1,43 @@
 body {
-  background-image: url("space.gif");
-  margin: 0;
-  font-family: "Lato";
-}
-
-header, main {
-  margin: 0 15%;
+  background-image: url("masquereade.jpg");
+  font-family: 'Inconsolata', monospace;
+  font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100vh;
 }
 
 header {
-  color: #ccc;
-  font-size: 36px;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-header h1 {
-  color: white;
-  font-size: 81px;
-  white-space: nowrap;
-  font-family: 'VT323', monospace;
-
+main,
+footer {
+  margin-left: 676px;
+  width: 555px;
 }
 
-ul li {
-  list-style-type: none;
+body,
+ul {
+  margin: 0;
 }
 
-.hour {
-  font-size: 32px;
-  color: #05f;
-}
-
-.place {
-  font-size: 24px;
-  color: #0ff;
-}
-
-p {
-  color: white;
-  font-size: 18px;
+.capital-letter,
+header text {
+  font-family: 'Dancing Script', cursive;
 }
 
 .note {
-  color: #888;
   font-style: italic;
 }
 
-.cents {
-  background-image: url("25cents.png");
-  background-repeat: repeat-x;
-  width: 100%;
-  height: 50px;
-  margin: 5px 0;
+footer {
+  font-size: 14px;
 }
 
-ul li {
-  position: relative;
-}
-
-.hidden {
-  display: none;
-  position: absolute;
-  top: 20px;
-}
-
-li:hover .hidden {
-  display: block;
+footer ul {
+  margin-bottom: 10px;
 }
