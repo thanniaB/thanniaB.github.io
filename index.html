@@ -4,18 +4,28 @@
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="experiment.css">
+  <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display|Zilla+Slab+Highlight" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="all.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <title> Thannia Blanchet </title>
 </head>
 <body>
+  <header>
+    <div class="language-selection">
+      <a class="spanish-language-selector"> Español </a> <a class="english-language-selector"> English </a>
+    </div>
+  </header>
   <main>
     <div class="menu">
       <ul>
         <li>
-          <a href="http://thannia.pythonanywhere.com/" target="_blank">TEENAGE DREAMS</a>
+          <a class="english" href="http://thannia.pythonanywhere.com/" target="_blank">Old Ideas</a>
+          <a class="spanish" href="http://thannia.pythonanywhere.com/" target="_blank">Viejas Ideas</a>
         </li>
         <li>
-          <a href="http://informalpenguins.com/" target="_blank">INFORMAL PENGUINS</a>
+          <a class="english" href="games.html">games</a>
+          <a class="spanish" href="games.html">juegos</a>
         </li>
         <li>
           <a href="http://sathsays.blogspot.mx/" target="_blank">BLOG</a>
@@ -35,17 +45,23 @@
         <li>
           <a href="http://pinkskull.newgrounds.com/" target="_blank">NEWGROUNDS</a>
         </li>
+        <li>
+          <a class="english" href="https://www.google.com/maps/d/u/0/viewer?mid=1gDCPyNfto_DG152nHiyOKt7CEG2lJJ4Y&ll=28.31121427540727%2C-110.47955635&z=9" target="_blank">FOOD MAP</a>
+          <a class="spanish" href="https://www.google.com/maps/d/u/0/viewer?mid=1gDCPyNfto_DG152nHiyOKt7CEG2lJJ4Y&ll=28.31121427540727%2C-110.47955635&z=9" target="_blank">MAPA de COMIDA</a>
+        </li>
       </ul>
-      <audio controls>
-        <source src="lavendertown.mp3" type="audio/mpeg">
-      </audio>
     </div>
   </main>
   <footer>
-    <p><u>current job</u>: web developer @ <a target="_blank" href="http://www.nearsoft.com">nearsoft</a><br/>
-    <u>current non-job projects</u>: sprites for a game
-    <u>latest achievements</u>: <a target="_blank" href="http://informalpenguins.com/Goat/index.html">Goat</a>, <a target="_blank" href="http://sandiego.geekgirltechcon.com/">TDD workshop for Geek Girl Tech Con</a><br/>
-  </p>
+    <p class="english">
+      This page is personal and it's so I can have a little place for me on the internet, that why
+      there's a mix of things that don't make sense. From my map of places where to eat to my linkedIn.
+    </p>
+    <p class="spanish">
+      Esta página es personal y es para tener un lugarcito para mí en internet,
+       por eso hay un revoltijo de cosas como mi mapa de lugares de comida o mi linkedIn.
+    </p>
   </footer>
-<body>
+   <script src="language.js"></script>
+</body>
 </html>
