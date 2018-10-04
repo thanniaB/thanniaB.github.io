@@ -4,9 +4,6 @@
 
 body {
   background-color: #000;
-  background-image: url('background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: "Lato";
   padding: 0;
   margin: 0;
@@ -14,7 +11,7 @@ body {
 
 a, a:visited,
 header {
-  color: white;
+  color: #999;
 }
 
 a {
@@ -27,13 +24,12 @@ a {
   margin-left: 25px;
 }
 
-.selected-language,
-a:hover {
+.selected-language {
   font-family: 'Zilla Slab Highlight', cursive;
 }
 
 a:hover {
-  color: #f0f;
+  color: #ccc;
 }
 
 .language-selection {

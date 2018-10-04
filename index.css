@@ -6,43 +6,17 @@ main {
 }
 
 .menu {
-  font-family: 'Sedgwick Ave Display', cursive;
-  font-size: 48px;
-  --menu-ident: 15px;
+  font-family: 'Cutive Mono', monospace;
+  border-right: 1px dashed #222;
+  border-left: 1px dashed #222;
+  font-size: 24px;
+  margin: 0 auto;
 }
 
-.menu li {
-  margin-left: var(--menu-ident);
+.menu ul {
+  padding: 40px;
 }
 
-.menu li:nth-child(2) {
-  margin-left: calc(var(--menu-ident) * 2);
-}
-
-.menu li:nth-child(3) {
-  margin-left: calc(var(--menu-ident) * 3);
-}
-
-.menu li:nth-child(4) {
-  margin-left: calc(var(--menu-ident) * 4);
-}
-
-.menu li:nth-child(5) {
-  margin-left: calc(var(--menu-ident) * 5);
-}
-
-.menu li:nth-child(6) {
-  margin-left: calc(var(--menu-ident) * 6);
-}
-
-.menu li:nth-child(7) {
-  margin-left: calc(var(--menu-ident) * 7);
-}
-
-.menu li:nth-child(8) {
-  margin-left: calc(var(--menu-ident) * 8);
-}
-
-.menu li:nth-child(9) {
-  margin-left: calc(var(--menu-ident) * 9);
+.menu ul li {
+  margin-top: 15px;
 }
