@@ -44,9 +44,16 @@ footer {
 }
 
 footer img {
+  width: 50px;
   visibility: hidden;
+  transition: .5s ease;
 }
 
-footer img:hover {
+.secret {
+  width: 50px;
+  height:50px;
+}
+
+.secret:hover + img {
   visibility: visible;
 }
