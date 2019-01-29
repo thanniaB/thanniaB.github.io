@@ -1,6 +1,6 @@
 body {
-  background-image: url("masquereade.jpg");
-  font-family: 'Inconsolata', monospace;
+  background-image: url("vaporwavebg.jpg");
+  font-family: 'Roboto Mono', monospace;
   font-size: 27px;
   display: flex;
   flex-direction: column;
@@ -8,26 +8,31 @@ body {
   height:100vh;
 }
 
+main,
+footer,
 header {
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
   text-align: center;
 }
 
+header {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.special {
+  color: white;
+}
+
 main,
 footer {
-  margin-left: 676px;
-  width: 555px;
+  color: white;
+
 }
 
 body,
 ul {
   margin: 0;
-}
-
-.capital-letter,
-header text {
-  font-family: 'Dancing Script', cursive;
 }
 
 .note {
@@ -38,6 +43,10 @@ footer {
   font-size: 14px;
 }
 
-footer ul {
-  margin-bottom: 10px;
+footer img {
+  visibility: hidden;
+}
+
+footer img:hover {
+  visibility: visible;
 }
