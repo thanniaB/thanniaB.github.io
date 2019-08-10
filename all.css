@@ -56,3 +56,11 @@ footer {
 footer, footer a {
   color: #777;
 }
+
+@media (min-width: 1150px) {
+  body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
