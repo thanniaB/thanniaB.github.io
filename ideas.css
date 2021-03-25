@@ -1,0 +1,19 @@
+.idea-list {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.idea-list li {
+  width: 180px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.idea-list li a {
+  flex-direction: column;
+}
+
+.idea-list li img {
+  height: 150px;
+}
