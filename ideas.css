@@ -1,3 +1,14 @@
+main > div {
+  display: flex;
+}
+
+.about {
+  background-color: black;
+  color: white;
+  width: 30%;
+  padding: 15px;
+}
+
 .idea-list {
   display: flex;
   width: 50%;
@@ -16,4 +27,19 @@
 
 .idea-list li img {
   height: 150px;
+}
+
+
+@media (max-width: 1250px) {
+  main > div {
+    flex-direction: column;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .idea-list {
+    width: 100%;
+  }
 }

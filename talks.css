@@ -1,0 +1,16 @@
+main {
+    width: 60%;
+}
+
+h1 {
+    color: white;
+}
+
+ul {
+    width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    margin-top: 20px;
+}
