@@ -40,3 +40,22 @@ main {
     margin-top: 32px;
   }
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    main {
+      overflow: visible;
+    }
+  
+    .menu {
+      width: 100%;
+      font-size: 56px;
+    }
+  
+    .menu ul li {
+      margin-top: 32px;
+    }
+
+}
