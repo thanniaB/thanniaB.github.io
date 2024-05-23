@@ -20,3 +20,23 @@ main {
 .menu ul li {
   margin-top: 15px;
 }
+
+@media (max-width: 768px) {
+  main {
+    overflow: visible;
+  }
+
+  .menu {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    font-size: 56px;
+  }
+
+  .menu ul li {
+    margin-top: 32px;
+  }
+}
